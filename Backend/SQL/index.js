@@ -44,8 +44,8 @@ console.log(createRandomUser());
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    database: 'delta_app',     // here definen database
-    password: 'Yashraj@123'
+    database: 'YOUR_DATABASE_NAME',     // here definen database
+    password: 'YOUR_DATABASE_PASSWORD'
 });
 // on clm use this:-> mysql -u root -p
 // Enter password: ***********
