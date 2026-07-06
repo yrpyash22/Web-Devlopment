@@ -1,0 +1,12 @@
+{
+  "name": "3rd_chap",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "yrp",
+  "type": "module",
+  "main": "math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

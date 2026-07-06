@@ -1,0 +1,19 @@
+{
+  "name": "mongoex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^9.2.2"
+  }
+}

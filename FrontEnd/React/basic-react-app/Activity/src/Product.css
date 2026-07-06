@@ -1,0 +1,6 @@
+.products{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 2rem;
+}

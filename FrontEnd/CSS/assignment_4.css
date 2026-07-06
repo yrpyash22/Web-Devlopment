@@ -1,0 +1,59 @@
+
+/* Qs1. Add a 2s transition on box1 for width changes.
+       It should have 'ease-in' speed curve & 0.5s delay  */
+
+#box1 {
+  width: 100px;
+  height: 100px;
+  background: green;
+  transition: width 2s ease-in 0.5s;
+}
+   
+
+#box1:hover {
+  width: 600px;
+  background-color: beige;
+  text-align: center;
+}
+
+/* Qs2. Using transform, move box2 200px to the right  & 
+        200px down. Also rotate it 90deg.*/
+
+#box2 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transform: translate(200px, 200px) rotate(90deg);;
+}
+/* Qs3. Using transform, skew box3 20deg along the x axis.*/
+
+#box3 {
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+  transform: skew(20deg);
+}
+
+/* Qs4. Set a 2px horizontal & 2px vertical, green shadow 
+        for box4, with a 5px blur radius.*/
+
+#box4 {
+  width: 100px;
+  height: 100px;
+  background: lightgreen;
+  box-shadow: 2px 2px 5px green;
+}
+
+/* Qs5. Set Your picture or any picture as the background of the div
+        "myPic". Also, set transparency of this div to 50%. */
+
+#myPic {
+  width: 200px;
+  height: 200px;
+  background: black;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Virat_Kohli_in_PMO_New_Delhi.jpg/250px-Virat_Kohli_in_PMO_New_Delhi.jpg");
+  background-size: cover;
+  position:fixed;
+  opacity: 50%;
+  transform: translate(500px, -400px);
+}

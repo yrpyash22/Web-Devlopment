@@ -1,0 +1,46 @@
+
+.red{
+  color: red;
+}
+.blue{
+  color: blue;
+}
+.box{
+  border: 2px solid black;
+  background-color: pink;
+}
+
+.btnStyle{
+  background-color: blue;
+  color: white;
+}
+
+
+ body {
+  font-family: Arial;
+}
+
+#mainImg {
+  width: 30%;
+}
+
+.box {
+  border: 0.25px solid black;
+  background-color: lightgray;
+  width: 200px;
+  padding: 1rem;
+}
+
+.boxLink {
+  text-decoration: none;
+}
+
+.oldImg {
+  height: 200px;
+  width: 200px;
+  margin-right: 1rem;
+}
+
+#description {
+  background-color: antiquewhite;
+} 

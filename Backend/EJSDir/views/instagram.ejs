@@ -1,0 +1,23 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+</head> -->
+
+<%- include("includes/head.ejs")  %>
+<body>
+    <h2>This page belongs to @<%= username %></h2>
+    <button>Follow</button>
+    <button>Message</button>
+
+    <h3>Account that follow you:</h3>
+    <ul>
+        <% for(let name of follwers) {%>
+            <li><%= name%></li>
+        <% } %>
+    </ul>
+    <%- include("includes/footer.ejs")  %>
+</body>
+</html>

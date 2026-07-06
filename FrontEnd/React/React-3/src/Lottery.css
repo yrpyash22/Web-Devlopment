@@ -1,0 +1,19 @@
+.ticket{
+    border: 2px solid blue;
+    border-radius: 15px;
+    font-size: 30px;
+    justify-content: center;
+}
+
+button{
+    margin-top: 2rem;
+    height: 4rem;
+    width: 20rem;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gen-ticket{
+    font-size: 25px;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "This is First project",
+  "license": "ISC",
+  "author": "Yashraj Prajapati",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}

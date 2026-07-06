@@ -1,0 +1,55 @@
+
+.main{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.box{
+    text-align: center;
+    font-size: 50px;
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+/* Q2 */
+
+.bord{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.cont{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    padding-left: 20px;
+    border-right: 1px solid black;
+    line-height: 50px;
+}
+
+.cont:hover{
+    background-color: aqua;
+}
+
+.cont:active{
+    background-color: gray;
+}
