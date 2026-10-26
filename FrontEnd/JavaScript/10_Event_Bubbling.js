@@ -1,7 +1,7 @@
 
+//------------------------------{ Eliment bubbling }--------------------------------------------//
 
 
-//  Eliment bubbling
 
 // let div = document.querySelector('div');
 // let ul = document.querySelector('ul');
