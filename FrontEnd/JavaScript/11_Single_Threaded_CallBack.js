@@ -110,7 +110,7 @@ savetoDB("Apna college")
 
 
 // [Example 2]
-
+/*
 let h1s = document.querySelectorAll("h1");
 function changeColor(color, deley)
 {
@@ -146,6 +146,7 @@ changeColor("red",1000)
 .then(()=>{
     console.log("gray colour was completed");
 });
+*/
 
 
 
@@ -155,19 +156,12 @@ changeColor("red",1000)
 
 
 
-
-
-
-
-
-
-
-//______  Aync Functions  _________//
+//--------{ Aync Functions  ---//
 //[1]    aync Keywords
 /*
 async function greet() {
-    //throw "404 Not Found";
-    return "Hello World0";  // Return a Promise
+    // throw "404 Not Found";
+    return "Hello World";  // Return a Promise
 }
 greet()
 .then((result)=>{
@@ -178,9 +172,12 @@ greet()
     console.log("Promise was rejected");
     console.log("Error :  ", error);
 });
+*/
 
 
-//[2]    await Keyword
+
+//[2]    { await Keyword }
+/*
 let h1s = document.querySelectorAll("h1");
 function changeColor(color, deley)
 {
@@ -199,14 +196,17 @@ async function demo() {
     await changeColor("gray", 1000);
     await changeColor("brown", 1000);
     changeColor("blue",1000);
+    return console.log("all color print");
 }
 demo();
 */
 
 
+
+
 // Handling Rejection with Await
 // using try-catch
-/*
+
 let h1s = document.querySelectorAll("h1");
 function changeColor(color, deley) {
     return new Promise((resolve, reject) => {
@@ -239,4 +239,3 @@ async function demo() {
     // changeColor("blue", 1000);
 }
 demo();
-*/
