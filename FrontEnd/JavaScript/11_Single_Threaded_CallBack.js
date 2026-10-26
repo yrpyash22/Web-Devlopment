@@ -1,8 +1,10 @@
 
+//----------------------------- { JavaScript Single Threaded }--------------------------------//
+
+
 //------------------------------- { Callback hell  }---------------------------------------//
 /*
 let h1 = document.querySelector("h1");
-
 function changeColor(color, deley, nextColar)
 {
     setTimeout( () =>{
@@ -22,8 +24,7 @@ changeColor("red",1000, () =>{
 
 
 
-
-// callback hell next Example
+// [Example 2 ]
 /*
 function saveDB(data, success, failure)
 {
@@ -35,9 +36,8 @@ function saveDB(data, success, failure)
         failure();
     }
 }
-
 saveDB("Apna Colege", 
-    ()=>{
+    ()=>{          // Succes data function call
             console.log("Success : your data is save");
             saveDB("Hello World", 
                 ()=>{ 
@@ -50,16 +50,18 @@ saveDB("Apna Colege",
                 ()=>{ console.log(" Data-2 Failure");}
             );
         }, 
-    ()=>{ console.log("Failure : your data"); }
-    );
+    ()=>{         // Fail data function call
+        console.log("Failure : your data"); 
+    }
+);
 */
 
 
 
+//-------------{ Promises }
 
-// Promises
-/*
-function savetoDB(data) {
+function savetoDB(data) 
+{
     return new Promise((resolve, reject) => {
         let internetSpeed = Math.floor(Math.random() * 10) + 1;
         if (internetSpeed > 4) {
@@ -69,19 +71,18 @@ function savetoDB(data) {
         }
     });
 }
-*/
+
+
+
 
 /*
 let request = savetoDB("Apna college");
-request
-.then(()=>{
+request.then(()=>{
     console.log("Promise Resolve");
-})
-.catch(()=>{
+}).catch(()=>{
     console.log("Promise reject");
 });
 */
-
 
 
 // Promise Chaining  // Promise result or error
@@ -108,18 +109,21 @@ savetoDB("Apna college")
 */
 
 
-// Example of Promise
-/*
+// [Example 2]
+
 let h1s = document.querySelectorAll("h1");
 function changeColor(color, deley)
 {
     return new Promise((resolve, reject) =>{
         setTimeout(()=>{
             for(h1 of h1s )
-            {h1.style.color = color;}
+            {
+                h1.style.color = color;
+            }
             resolve("Color shanged !");
         },deley);
     });
+    
 }
 
 changeColor("red",1000)
@@ -142,7 +146,7 @@ changeColor("red",1000)
 .then(()=>{
     console.log("gray colour was completed");
 });
-*/
+
 
 
 
@@ -202,6 +206,7 @@ demo();
 
 // Handling Rejection with Await
 // using try-catch
+/*
 let h1s = document.querySelectorAll("h1");
 function changeColor(color, deley) {
     return new Promise((resolve, reject) => {
@@ -234,3 +239,4 @@ async function demo() {
     // changeColor("blue", 1000);
 }
 demo();
+*/
