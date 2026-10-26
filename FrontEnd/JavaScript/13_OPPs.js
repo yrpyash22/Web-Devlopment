@@ -2,6 +2,10 @@
 // ========================{  Object Oriented Programming In JavaScript   }============================//
 // Revisiting JS
 
+
+
+
+
 // Use Condition because multiple values funcrion construction
 // For Example
 /*
@@ -51,8 +55,28 @@ arr1.__proto__       // > [at: ƒ, concat: ƒ, copyWithin: ƒ, fill: ƒ, find: �
 
 
 
-// [2] Factory Function
+// [2] Construction Function (Factory Function)
 // A Factory function that create object
+
+/*      // Example 
+function Student(name, age)
+{
+    this.name = name;
+    this.age = age;
+    this.introduction = function()
+    {
+        console.log("Hi, My name is "+ this.name + "and I am " + this.age + " year old");
+    }
+}
+// Using Property and methods
+const c1 = new Student("Aman", 25);
+const c2 = new Student("Pal", 56);
+console.log(c1.name);
+console.log(c2.age);
+c1.introduction();
+c52.introduction();
+*/
+ 
 /*
 function PersonMaker(name, age){
     const person = {
@@ -97,6 +121,8 @@ console.log(p1.talk === p2.talk);     // true
       > talk: ƒ () constructor : ƒ Person(name, age)
       > [[Prototype]] : Object
 */
+
+
 
 
 
